@@ -1,47 +1,132 @@
+/* Reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Reset*/
+
+
 h1 {
-    color: green;
-    background-color: purple;
+    color: rgb(0, 0, 0);
+   
+    background-color: rgba(211, 48, 170, 0.5);
     font-size: 50px;
+    font-weight: 400px;
     text-align: center;
-font-weight: 300;}
+    
+}
 
 
 h2 {
-    color: purple;
-    font-size: 40px;
-    background-color: forestgreen;
+    color: rgb(0, 0, 0);
+    background-color: rgba(211, 48, 170, 0.5);
+    font-size: 30px;
     text-align: center;
-    font-weight: 200;}
+    font-weight: 300px;
+
+}
 
 h3 {
-    color: purple;
-    font-size: 30px;
-    background-color: forestgreen;
+    color: rgb(0, 0, 0);
+    background-color: rgba(211, 48, 170, 0.5);
+    font-size: 20px;
     text-align: center;
-    font-weight: 100;}
+    font-weight: 300px;
+    margin-bottom: 1cm;
+}
+    
+    a {color: white;}
 
-        #nav {
-            color: red; 
-            font-size: xx-large;
-        }
 
   /* Body är bakgrunden */
     body {
-        background-image: url(../images/forest.jpg);
+        background-image: url(../Images/forest.jpg);
         background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
         background-attachment: fixed;
+       
         height: 200vh;
-  
-} /* Body är bakgrunden. Man kan skriva alla*/
+    
+    } /* Body är bakgrunden. Man kan skriva alla dessa som 
+enbart " background: url(../images/forest.jpg), no-repeat, fixed, center, cover;"
+  (detta funkar ej varken med ordningen på lektionsvideon eller min ordning (ovan i body), kolla med Michelle)*/
 
 
 
-.home, .contact {
-    color: rebeccapurple;}
+/* Navigation section */
+#nav {
+   color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: x-large;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
+}    /* Navigation section */
 
-.about, .info {
-    color: rgb(54, 153, 51);}
 
-/*kommentar
-Test
-*/
+/* reflection section */
+    .reflection {
+        font-weight: bold;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-style: ;
+        background: rgba(211, 48, 170, 0.5);
+        margin-bottom: 1cm;}
+        
+
+/* reflection section */
+
+/* Video section */
+    video {
+        object-position: 50% 50%;
+        border-width: 10px;
+        border-style: groove;
+        border-color: greenyellow;
+        border: 10px groove greenyellow;
+        border-radius: 5px;
+        box-shadow: 15px 15px 30px green;
+        /* Box-shadow: (horisontal, vertical, blur, color) */
+        
+    
+    }
+
