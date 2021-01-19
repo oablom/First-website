@@ -1,0 +1,47 @@
+h1 {
+    color: green;
+    background-color: purple;
+    font-size: 50px;
+    text-align: center;
+font-weight: 300;}
+
+
+h2 {
+    color: purple;
+    font-size: 40px;
+    background-color: forestgreen;
+    text-align: center;
+    font-weight: 200;}
+
+h3 {
+    color: purple;
+    font-size: 30px;
+    background-color: forestgreen;
+    text-align: center;
+    font-weight: 100;}
+
+        #nav {
+            color: red; 
+            font-size: xx-large;
+        }
+
+  /* Body är bakgrunden */
+    body {
+        background-image: url(../images/forest.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 200vh;
+  
+} /* Body är bakgrunden. Man kan skriva alla*/
+
+
+
+.home, .contact {
+    color: rebeccapurple;}
+
+.about, .info {
+    color: rgb(54, 153, 51);}
+
+/*kommentar
+Test
+*/
