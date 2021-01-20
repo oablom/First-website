@@ -45,6 +45,17 @@ table {
 }
 /* Reset*/
 
+  /* Body är bakgrunden */
+  body {
+    background-image: url(../Images/forest.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  
+   
+    height: 200vh;
+} /* Background */
 
 h1 {
     color: rgb(0, 0, 0);
@@ -55,7 +66,6 @@ h1 {
     text-align: center;
     
 }
-
 
 h2 {
     color: rgb(0, 0, 0);
@@ -76,21 +86,6 @@ h3 {
 }
     
     a {color: white;}
-
-
-  /* Body är bakgrunden */
-    body {
-        background-image: url(../Images/forest.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        background-attachment: fixed;
-       
-        height: 200vh;
-    
-    } /* Body är bakgrunden. Man kan skriva alla dessa som 
-enbart " background: url(../images/forest.jpg), no-repeat, fixed, center, cover;"
-  (detta funkar ej varken med ordningen på lektionsvideon eller min ordning (ovan i body), kolla med Michelle)*/
 
 
 
